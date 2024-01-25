@@ -81,8 +81,8 @@ Overall, this CNN architecture is relatively simple, consisting of multiple conv
 Epoch 1/25
 Learning Rate: 0.0010000
 
-Train Loss: 2.6537 Acc: 0.2390
-Val Loss: 1.9340 Acc: 0.3612
+Train Loss: 2.4373 Acc: 0.2185
+Val Loss: 1.8842 Acc: 0.3333
 .
 .
 .
@@ -91,10 +91,11 @@ Val Loss: 1.9340 Acc: 0.3612
 Epoch 25/25
 Learning Rate: 0.0002920
 
-Train Loss: 0.9160 Acc: 0.7034
-Val Loss: 0.6764 Acc: 0.7848
-Training complete in 18m 57s
-Best Validation Accuracy: 0.7877
+Train Loss: 0.7783 Acc: 0.7438
+Val Loss: 0.5483 Acc: 0.8348
+Training complete in 22m 12s
+
+Best Validation Accuracy: 0.8348
 
 Dataset and Data Loading:
 
