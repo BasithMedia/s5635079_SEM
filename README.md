@@ -39,7 +39,8 @@ There are nine diseases and one normal.
 - Tungro 
 - Normal
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="1722" alt="Untitled" src="https://github.com/BasithMedia/s5635079_SEM/assets/149077310/0ba13937-fb5e-4b59-90f5-6cf1190b419b">
+
 
 
 ## Model Description
