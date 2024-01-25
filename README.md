@@ -4,7 +4,9 @@ Basith Shuhaib (ID: 5635079)
 
 #### To determine the specific disease category indicated in photos of paddy leaves.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![depositphotos_123427332-stock-photo-green-rice-field](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/14072839-aeb3-4b8a-8ea0-a171e945c494)
+
+Figure 1: stock-photo-green-rice-field (TZIDO 2015)
 
 ### Abstract
 Rice, scientifically known as Oryza sativa, is a globally consumed staple food. Paddy, the unprocessed grain prior to husk removal, is cultivated primarily in tropical regions, particularly in Asian nations. Continuous monitoring is essential for rice agriculture due to the susceptibility of paddy crops to various diseases and pests, which can result in a significant reduction of up to 70% in crop production. Professional oversight is typically required to alleviate these infections and avert agricultural damage. Due to the scarcity of crop protection specialists, the process of manually diagnosing diseases is laborious and costly. Therefore, it is becoming more crucial to automate the process of identifying diseases by utilising computer vision-based techniques that have demonstrated promising outcomes in many fields.[2]
@@ -12,7 +14,7 @@ Rice, scientifically known as Oryza sativa, is a globally consumed staple food. 
 ## Introduction
 The primary goal of this challenge is to create a machine or deep learning model that can accurately classify the provided paddy leaf photos. The training dataset consists of 10,407 labelled photos, which account for 75% of the total. These images are divided into ten classes, including nine illness categories and one class for normal leaves. Furthermore,  data for every photograph, including details about the type of paddy and its age. objective is to categorise each paddy image in the included test dataset, which consists of 3,469 (25%) photos, into one of the nine disease groups or as a normal leaf.[2]
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Dataset](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/902568ab-0e4b-4a1f-881c-9bcdea864a85)
 
 ## Literature Review
 
@@ -103,11 +105,10 @@ Training:
 
 The model is trained using the training dataset, employing data augmentation techniques such as random resizing/cropping and horizontal flipping. The training process consists of 25 iterations, each using a batch size of 64. Learning rate scheduling and early stopping are utilised to enhance training efficiency and prevent overfitting.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![TRAIN LOSS](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/ee40402c-0236-4089-8774-5a220b2b75db)
 
 
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![TRAIN ACC](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/88f3559e-a9e6-4da8-b13b-dde3a04ae0dc)
 
 
 ## Conclusion
