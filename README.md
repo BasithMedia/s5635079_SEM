@@ -25,6 +25,8 @@ The majority of these illnesses can be detected through regular observation of t
 ## Dataset Description and Visualisation
 The training dataset consists of 10,407 labelled photos, which account for 75% of the total. These images are divided into ten classes, including nine disease categories and one category for normal leaves. In addition, the system included supplementary metadata for each photograph, including the type of rice and its age. 
 
+This the dataset that i used: https://www.kaggle.com/code/konradszafer/paddy-disease-pytorch-acc-98-0/input
+
 
 There are nine diseases and one normal.
 
