@@ -4,7 +4,7 @@ Basith Shuhaib (ID: 5635079)
 
 #### To determine the specific disease category indicated in photos of paddy leaves.
 
-![depositphotos_123427332-stock-photo-green-rice-field](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/14072839-aeb3-4b8a-8ea0-a171e945c494)
+![depositphotos_123427332-stock-photo-green-rice-field](Cover.jpg)
 
 Figure 1: stock-photo-green-rice-field (TZIDO 2015)
 
@@ -14,7 +14,7 @@ Rice, scientifically known as Oryza sativa, is a globally consumed staple food. 
 ## Introduction
 The primary goal of this challenge is to create a machine or deep learning model that can accurately classify the provided paddy leaf photos. The training dataset consists of 10,407 labelled photos, which account for 75% of the total. These images are divided into ten classes, including nine illness categories and one class for normal leaves. Furthermore,  data for every photograph, including details about the type of paddy and its age. objective is to categorise each paddy image in the included test dataset, which consists of 3,469 (25%) photos, into one of the nine disease groups or as a normal leaf.[2]
 
-![Dataset](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/902568ab-0e4b-4a1f-881c-9bcdea864a85)
+![Dataset](Dataset.png)
 
 ## Literature Review
 
@@ -39,13 +39,13 @@ There are nine diseases and one normal.
 - Tungro 
 - Normal
 
-<img width="1722" alt="Untitled" src="https://github.com/BasithMedia/s5635079_SEM/assets/149077310/0ba13937-fb5e-4b59-90f5-6cf1190b419b">
+<img width="1722" alt="Untitled" src="Data Visualisation.png">
 
 
 
 ## Model Description
 
-![CNN](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/cacbea95-1863-4a1c-9d03-ad0dcb33a56b)
+![CNN](CNN.png)
 
 
 A basic convolutional neural network (CNN) was used as the model. The model is described in in depth as follows:
@@ -108,11 +108,11 @@ Training:
 
 The model is trained using the training dataset, employing data augmentation techniques such as random resizing/cropping and horizontal flipping. The training process consists of 25 iterations, each using a batch size of 64. Learning rate scheduling and early stopping are utilised to enhance training efficiency and prevent overfitting.
 
-![Screenshot 2024-01-26 000945](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/c3a1400b-e9dc-4473-b7b2-7a273bf1547b)
+![Screenshot 2024-01-26 000945](Trainloss.png)
 
 
 
-![Screenshot 2024-01-26 001000](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/707e7671-8ce8-4b2e-922c-effd0369ee8a)
+![Screenshot 2024-01-26 001000](TrainAcc.png)
 
 
 
