@@ -45,7 +45,8 @@ There are nine diseases and one normal.
 
 ## Model Description
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![CNN](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/cacbea95-1863-4a1c-9d03-ad0dcb33a56b)
+
 
 A basic convolutional neural network (CNN) was used as the model. The model is described in in depth as follows:
 
