@@ -107,10 +107,11 @@ Training:
 
 The model is trained using the training dataset, employing data augmentation techniques such as random resizing/cropping and horizontal flipping. The training process consists of 25 iterations, each using a batch size of 64. Learning rate scheduling and early stopping are utilised to enhance training efficiency and prevent overfitting.
 
-![TRAIN LOSS](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/ee40402c-0236-4089-8774-5a220b2b75db)
+![Screenshot 2024-01-25 113647](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/7166f21e-9e7f-4cac-9c58-24a1e09f6d71)
 
 
-![TRAIN ACC](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/88f3559e-a9e6-4da8-b13b-dde3a04ae0dc)
+![Screenshot 2024-01-25 113733](https://github.com/BasithMedia/s5635079_SEM/assets/149077310/567eba20-4e24-4563-a5b4-49d34b889349)
+
 
 
 ## Conclusion
